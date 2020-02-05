@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {fetchPosts} from '../actions'
+import {fetchPosts} from '../redux/actions'
 
 
 class PostList extends Component{
@@ -10,7 +10,7 @@ class PostList extends Component{
     }
     render() {
         return (
-            <div>Post List</div>
+            <h1>Post List</h1>
         )
     }
 }
