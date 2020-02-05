@@ -1,7 +1,7 @@
 import PostActionTypes from '../types/index';
 
 const INITIAL_STATE = {
-  posts: null,
+  posts: [],
 };
 
 const postReducer = (state = INITIAL_STATE, action) => {
